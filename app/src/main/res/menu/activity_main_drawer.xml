@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/adduser"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Add Employee" />
+        <item
+            android:id="@+id/viewemployee"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="View Employee" />
+        <item
+            android:id="@+id/allotkit"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Allot Kit" />
+        <item
+            android:id="@+id/heartratedignosis"
+            android:icon="@drawable/warning"
+            android:title="Heart Rate Dignosis" />
+        <item
+            android:id="@+id/oxygenanalysis"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Oxygen Level Analytics" />
+        <item
+            android:id="@+id/temp_analysis"
+            android:icon="@drawable/warning"
+            android:title="Temp Analytics" />
+        <item
+            android:id="@+id/add_training"
+            android:icon="@drawable/warning"
+            android:title="Add Training" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/atrisk"
+                android:icon="@drawable/warning"
+                android:title="At Risk" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

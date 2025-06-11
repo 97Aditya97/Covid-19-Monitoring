@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@drawable/back"
+        android:textStyle="bold"
+        android:textColor="#981212"
+        android:text="Temperature Risk Detected" />
+<ListView
+    android:id="@+id/list11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></ListView>
+</LinearLayout>
